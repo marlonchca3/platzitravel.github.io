@@ -8,4 +8,19 @@
   .bg-norway {
     @apply bg-cover bg-[url('../img/norway.jpg')];
   }
+  .bg-new_york {
+    background-image: url('../img/new_york.jpg');
+    background-size: cover;
+  }
+  .bg-secondary {
+    background-color: #8FA206;
+  }
+  .text-terciary {
+    color: #61AEC9;
+  }
+}
+
+
+.Card {
+    @apply w-48 h-64 shadow-md rounded-lg flex-none
 }
