@@ -11,7 +11,6 @@
     "build": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css -c ./tailwind.config.js",
     "watch": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css -c ./tailwind.config.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    
     "tw:build": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css -c ./tailwind.config.js"
   },
   "dependencies": {

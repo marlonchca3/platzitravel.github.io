@@ -12,15 +12,61 @@
     background-image: url('../img/new_york.jpg');
     background-size: cover;
   }
+
+  .bg-chicago {
+    background-image: url('../img/chicago.jpg');
+    background-size: cover;
+    }
+
+  .bg-LA {
+    background-image: url('../img/LA.jpg');
+    background-size: cover;
+    }
+
+    .bg-miami {
+    background-image: url('../img/miami.jpg');
+    background-size: cover;
+    }
+
+    .bg-bali {
+    background-image: url('../img/bali.jpg');
+    background-size: cover;
+    }
+
+    .bg-sanFranciscoDesktop {
+    background-image: url('../img/sanFranciscoDesktopjpg');
+    background-size: cover;
+    }
+
   .bg-secondary {
     background-color: #8FA206;
+  }
+  
+   .bg-white {
+    background-color: white;
+  }
+
+  .text-primary {
+    color: #CC2D4A;
+  }
+  .text-secondary {
+    color: #8FA206;
   }
   .text-terciary {
     color: #61AEC9;
   }
+
+  
+
+   
 }
 
 
 .Card {
-    @apply w-48 h-64 shadow-md rounded-lg flex-none
+    @apply w-48 h-64 shadow-md rounded-lg flex-none transform transition-all hover:-translate-y-4 hover:shadow-xl;
 }
+
+.CardTitle {
+    @apply text-3xl px-8 pt-8 pb-2 font-semibold text-white
+}
+
